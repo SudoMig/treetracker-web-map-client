@@ -3,6 +3,8 @@ import Home from '../components/Home';
 
 export default function Homepage({ nextExtraIsEmbed }) {
   console.log(nextExtraIsEmbed);
+  console.log(`${process.env.REACT_APP_NAME} ${process.env.REACT_APP_VERSION}`);
+
   return (
     <>
       <Head>
